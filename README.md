@@ -206,10 +206,3 @@ python3 compare_test_results.py \
 | ggplot2, dplyr, ggpubr | R scripts | `install.packages(c("ggplot2","dplyr","ggpubr"))` |
 | Nextflow | `.nf` process | [nextflow.io](https://www.nextflow.io/) |
 | NCBI Entrez API key | Download scripts | Register at [ncbi.nlm.nih.gov](https://www.ncbi.nlm.nih.gov/account/) |
-
----
-
-## Author
-
-Florian Kramer  
-Contact: flo_kramer@t-online.de
