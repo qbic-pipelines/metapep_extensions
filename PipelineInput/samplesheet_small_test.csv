@@ -1,0 +1,2 @@
+condition,type,microbiome_path,alleles,weights_path
+testAssemblySelection,taxa,PipelineInput/testAssemblySelection.tsv,A*01:01,

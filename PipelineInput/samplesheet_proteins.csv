@@ -1,0 +1,2 @@
+condition,type,microbiome_path,alleles,weights_path
+mock_proteins,proteins,PipelineInput/mock_proteins.fasta,A*01:01 A*02:01 B*07:02 B*08:01,

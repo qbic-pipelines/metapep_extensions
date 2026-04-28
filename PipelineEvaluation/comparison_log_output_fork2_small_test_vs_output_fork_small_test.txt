@@ -1,0 +1,41 @@
+[INFO] Starting comparison (log saved to comparison_log_output_fork2_small_test_vs_output_fork_small_test.txt)
+
+=== Comparing proteins.tsv.gz ===
+[INFO] Dev file size: 10266575 bytes
+[INFO] Original file size: 10266700 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: 237f8a02ba060a5056bb847f6250dbc8
+[INFO] Original MD5: 80cddc35d9008ee9b271d6cfd4c0b67f
+[INFO] Streaming keys ...
+[INFO] Dev line count: 53153
+[INFO] Original line count: 53153
+[INFO] Line comparison:
+       Unique dev keys: 53153
+       Unique original keys: 53153
+       Shared keys: 53153
+       Only dev: 0
+       Only original: 0
+
+=== Comparing peptides.tsv.gz ===
+[INFO] Dev file size: 312982860 bytes
+[INFO] Original file size: 312984945 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: e9ad20163c889d5bd93c15b78ed5ff4e
+[INFO] Original MD5: 351725505a0f6d2a16bbca13d68c39da
+[INFO] Streaming keys ...
+[INFO] Dev line count: 44893744
+[INFO] Original line count: 44894538
+[INFO] Line comparison:
+       Unique dev keys: 44893744
+       Unique original keys: 44894538
+       Shared keys: 44891915
+       Only dev: 1829
+       Only original: 2623
+
+=== Comparing predictions.tsv.gz ===
+[INFO] Dev file size: 2316456538 bytes
+[INFO] Original file size: 2316538970 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: 2fcaa4880881f3abfe39204a61dfa7a9
+[INFO] Original MD5: bd6698041119d618c36483109532fe88
+[INFO] Streaming keys ...

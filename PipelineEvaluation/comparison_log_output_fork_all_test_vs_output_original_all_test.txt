@@ -1,0 +1,158 @@
+[INFO] Starting paired file comparison ... (log also saved to comparison_log_output_fork_all_test_vs_output_original_all_test.txt)
+
+=== Comparing proteins.tsv.gz ===
+[INFO] Dev file size: 1324989 bytes
+[INFO] Original file size: 1324989 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: a25446e35b79c1f6ceb7937cf91f6949
+[INFO] Original MD5: a25446e35b79c1f6ceb7937cf91f6949
+[INFO] Collecting line sets ...
+[INFO] Dev line count (excluding header): 6993
+[INFO] Original line count (excluding header): 6993
+[INFO] Line content comparison (order-independent):
+       Unique entries in dev: 6993
+       Unique entries in original: 6993
+       Shared unique entries: 6993
+       Only in dev: 0
+       Only in original: 0
+       Percent identical relative to dev: 100.00%
+       Percent identical relative to original: 100.00%
+
+=== Comparing peptides.tsv.gz ===
+[INFO] Dev file size: 46223059 bytes
+[INFO] Original file size: 46225367 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: 923e24b7c2da0ed858ce12218639aba5
+[INFO] Original MD5: 04519f8649c84f61a4a84f586b46c84d
+[INFO] Collecting line sets ...
+[INFO] Dev line count (excluding header): 5932470
+[INFO] Original line count (excluding header): 5932764
+[INFO] Line content comparison (order-independent):
+       Unique entries in dev: 5932470
+       Unique entries in original: 5932764
+       Shared unique entries: 5932470
+       Only in dev: 0
+       Only in original: 294
+       Percent identical relative to dev: 100.00%
+       Percent identical relative to original: 100.00%
+[INFO] Entries present in original but NOT in dev (showing up to 10 examples):
+       peptide_sequence	peptide_id
+       ACLQAGXXP
+       ACLQAGXXPD
+       ACLQAGXXPDV
+       AEKLGLEKGLX
+       AEMDLHLXX
+       AEMDLHLXXX
+       AEMDLHLXXXX
+       AGXXPDVYN
+       AGXXPDVYNG
+       AGXXPDVYNGI
+
+=== Comparing predictions.tsv.gz ===
+[INFO] Dev file size: 64001033 bytes
+[INFO] Original file size: 63995601 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: 60a15bc9f2352bb61a4bc147faf5f53e
+[INFO] Original MD5: 398ec396935c37362d80f02d5ff63d8b
+[INFO] Collecting line sets ...
+[INFO] Dev line count (excluding header): 11782907
+[INFO] Original line count (excluding header): 11783495
+[INFO] Line content comparison (order-independent):
+       Unique entries in dev: 5932470
+       Unique entries in original: 5932764
+       Shared unique entries: 5932470
+       Only in dev: 0
+       Only in original: 294
+       Percent identical relative to dev: 100.00%
+       Percent identical relative to original: 100.00%
+[INFO] Entries present in original but NOT in dev (showing up to 10 examples):
+       peptide_id	prediction_score	allele_id
+       5932470
+       5932471
+       5932472
+       5932473
+       5932474
+       5932475
+       5932476
+       5932477
+       5932478
+       5932479
+
+=== Comparing proteins_peptides.tsv ===
+[INFO] Dev file size: 92689670 bytes
+[INFO] Original file size: 92695055 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: 5b5ec3b4495aacf8e3f1eb36fc62fff7
+[INFO] Original MD5: 9fd528d928349164cc10e63da2c67fe8
+[INFO] Collecting line sets ...
+[INFO] Dev line count (excluding header): 6331148
+[INFO] Original line count (excluding header): 6331508
+[INFO] Line content comparison (order-independent):
+       Unique entries in dev: 6331148
+       Unique entries in original: 6331508
+       Shared unique entries: 15301
+       Only in dev: 6315847
+       Only in original: 6316207
+       Percent identical relative to dev: 0.24%
+       Percent identical relative to original: 0.24%
+[INFO] Entries present in dev but NOT in original (showing up to 10 examples):
+       protein_id	peptide_id	count
+       0	1004937	1
+       0	1018597	1
+       0	1032678	1
+       0	1042211	1
+       0	1085640	1
+       0	1093452	1
+       0	1094055	1
+       0	1110372	1
+       0	1113998	1
+       0	1120308	1
+[INFO] Entries present in original but NOT in dev (showing up to 10 examples):
+       protein_id	peptide_id	count
+       0	1004972	1
+       0	1018635	1
+       0	1032718	1
+       0	1042251	1
+       0	1085681	1
+       0	1093494	1
+       0	1094097	1
+       0	1110414	1
+       0	1114040	1
+       0	1120350	1
+
+=== Comparing stats.tsv ===
+[INFO] Dev file size: 316 bytes
+[INFO] Original file size: 316 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: de1d2d6cf9cf46a6ea0348ec4fc89fed
+[INFO] Original MD5: 49e094222e02cd592cd1daff6dd9778f
+[INFO] Condition: cond_1
+       Unique proteins: dev=679, orig=679, amount percent overlap=100.00%
+       Total peptides: dev=1011858, orig=1011858, amount percent overlap=100.00%
+       Unique peptides: dev=533766, orig=533766, amount percent overlap=100.00%
+       # Binder (any allele): dev=31833, orig=31833, amount percent overlap=100.00%
+       # Binders for allele A*01:01: dev=9985, orig=9985, amount percent overlap=100.00%
+       # Binders for allele B*07:02: dev=21848, orig=21848, amount percent overlap=100.00%
+[INFO] Condition: cond_2
+       Unique proteins: dev=6226, orig=6226, amount percent overlap=100.00%
+       Total peptides: dev=5492367, orig=5509956, amount percent overlap=99.68%
+       Unique peptides: dev=5319463, orig=5319757, amount percent overlap=99.99%
+       # Binder (any allele): dev=354284, orig=354291, amount percent overlap=100.00%
+       # Binders for allele A*01:01: dev=128254, orig=128255, amount percent overlap=100.00%
+       # Binders for allele B*07:02: dev=226030, orig=226036, amount percent overlap=100.00%
+[INFO] Condition: total
+       Unique proteins: dev=6993, orig=6993, amount percent overlap=100.00%
+       Total peptides: dev=6586707, orig=6604296, amount percent overlap=99.73%
+       Unique peptides: dev=5932470, orig=5932764, amount percent overlap=100.00%
+       # Binder (any allele): dev=385854, orig=385861, amount percent overlap=100.00%
+       # Binders for allele A*01:01: dev=139738, orig=139739, amount percent overlap=100.00%
+       # Binders for allele B*07:02: dev=247703, orig=247709, amount percent overlap=100.00%
+[INFO] Condition: cond_3
+       Unique proteins: dev=88, orig=88, amount percent overlap=100.00%
+       Total peptides: dev=82482, orig=82482, amount percent overlap=100.00%
+       Unique peptides: dev=82370, orig=82370, amount percent overlap=100.00%
+       # Binder (any allele): dev=1547, orig=1547, amount percent overlap=100.00%
+       # Binders for allele A*01:01: dev=1547, orig=1547, amount percent overlap=100.00%
+       # Binders for allele B*07:02: dev=0, orig=0, amount percent overlap=100.00%
+
+[INFO] Finished all comparisons.

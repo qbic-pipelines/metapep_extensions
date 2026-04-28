@@ -1,0 +1,8 @@
+[INFO] Starting paired file comparison ... (log also saved to comparison_log_output_fork_test_mouse_vs_output_original_test_mouse.txt)
+[ERROR] Missing dev file: ../output_fork_test_mouse/db_tables/proteins.tsv.gz
+[ERROR] Missing dev file: ../output_fork_test_mouse/db_tables/peptides.tsv.gz
+[ERROR] Missing dev file: ../output_fork_test_mouse/db_tables/predictions.tsv.gz
+[ERROR] Missing dev file: ../output_fork_test_mouse/db_tables/proteins_peptides.tsv
+[ERROR] Missing dev file: ../output_fork_test_mouse/db_tables/stats.tsv
+
+[INFO] Finished all comparisons.

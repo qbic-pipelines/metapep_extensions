@@ -1,0 +1,157 @@
+[INFO] Starting comparison (log saved to comparison_log_output_fork_coassembly_vs_output_original_coassembly.txt)
+
+=== Comparing proteins.tsv.gz ===
+[INFO] Dev file size: 1170355 bytes
+[INFO] Original file size: 1170355 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: e8a2211019ca7b516ccfa5313cb3d2de
+[INFO] Original MD5: e8a2211019ca7b516ccfa5313cb3d2de
+[INFO] Collecting line sets ...
+[INFO] Dev line count: 6314
+[INFO] Original line count: 6314
+[INFO] Line comparison:
+       Unique dev: 6314
+       Unique original: 6314
+       Shared: 6314
+       Only dev: 0
+       Only original: 0
+
+=== Comparing peptides.tsv.gz ===
+[INFO] Dev file size: 42232870 bytes
+[INFO] Original file size: 42235893 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: 5a58c1cbc78426dd1b300f1a69a0884c
+[INFO] Original MD5: 66f6ceef1d5212d061b46c90703282d9
+[INFO] Collecting line sets ...
+[INFO] Dev line count: 5401519
+[INFO] Original line count: 5401813
+[INFO] Line comparison:
+       Unique dev: 5401519
+       Unique original: 5401813
+       Shared: 5401519
+       Only dev: 0
+       Only original: 294
+[INFO] Entries present in original but NOT in dev (showing up to 10 examples):
+       peptide_sequence	peptide_id
+       ACLQAGXXP	12156
+       ACLQAGXXPD	1816156
+       ACLQAGXXPDV	3616957
+       AEKLGLEKGLX	3629246
+       AEMDLHLXX	25598
+       AEMDLHLXXX	1829579
+       AEMDLHLXXXX	3630354
+       AGXXPDVYN	43132
+       AGXXPDVYNG	1847074
+       AGXXPDVYNGI	3647830
+
+=== Comparing predictions.tsv.gz ===
+[INFO] Dev file size: 29407085 bytes
+[INFO] Original file size: 29408896 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: 247f8f5f0c02a7df724774ef896a68d9
+[INFO] Original MD5: bf3a26621094771540cd9b4642eb2f81
+[INFO] Collecting line sets ...
+[INFO] Dev line count: 5483889
+[INFO] Original line count: 5484183
+[INFO] Line comparison:
+       Unique dev: 5401519
+       Unique original: 5401813
+       Shared: 5401519
+       Only dev: 0
+       Only original: 294
+[INFO] Entries present in original but NOT in dev (showing up to 10 examples):
+       peptide_id	prediction_score	allele_id
+       5401519	0.1794871794871795	0
+       5401520	0.1025641025641025	0
+       5401521	0.1025641025641025	0
+       5401522	0.0769230769230769	0
+       5401523	0.0769230769230769	0
+       5401524	0.0512820512820512	0
+       5401525	0.0769230769230769	0
+       5401526	0.2051282051282051	0
+       5401527	0.0769230769230769	0
+       5401528	0.0512820512820512	0
+
+=== Comparing proteins_peptides.tsv ===
+[INFO] Dev file size: 81377438 bytes
+[INFO] Original file size: 81382820 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: 462d01f43f398cc069fb49c369e750f1
+[INFO] Original MD5: ce3ba728c26a7a6866ecbfc11946c1cc
+[INFO] Collecting line sets ...
+[INFO] Dev line count: 5573652
+[INFO] Original line count: 5574012
+[INFO] Line comparison:
+       Unique dev: 5573652
+       Unique original: 5574012
+       Shared: 14199
+       Only dev: 5559453
+       Only original: 5559813
+[INFO] Entries present in dev but NOT in original (showing up to 10 examples):
+       protein_id	peptide_id	count
+       0	1008854	1
+       0	1056447	1
+       0	1067405	1
+       0	1081476	1
+       0	1119624	1
+       0	1163721	1
+       0	1168068	1
+       0	1171098	1
+       0	1179463	1
+       0	1203632	1
+[INFO] Entries present in original but NOT in dev (showing up to 10 examples):
+       protein_id	peptide_id	count
+       0	1008896	1
+       0	1056492	1
+       0	1067450	1
+       0	1081522	1
+       0	1119670	1
+       0	1163767	1
+       0	1168114	1
+       0	1171144	1
+       0	1179509	1
+       0	1203678	1
+
+=== Comparing stats.tsv ===
+[INFO] Dev file size: 377 bytes
+[INFO] Original file size: 377 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: b439ee8c2473d76e0a94882b1e7257d5
+[INFO] Original MD5: c0108805c2a0f85af2ca5a2e8bf71a3e
+[INFO] Condition: assembly_cond_1
+       Unique proteins: dev=88, orig=88, overlap=100.00%
+       Total peptides: dev=82482, orig=82482, overlap=100.00%
+       Unique peptides: dev=82370, orig=82370, overlap=100.00%
+       # Binder (any allele): dev=6089, orig=6089, overlap=100.00%
+       # Binders for allele A*01:01: dev=1547, orig=1547, overlap=100.00%
+       # Binders for allele B*07:02: dev=4542, orig=4542, overlap=100.00%
+[INFO] Condition: assembly_cond_2
+       Unique proteins: dev=88, orig=88, overlap=100.00%
+       Total peptides: dev=82482, orig=82482, overlap=100.00%
+       Unique peptides: dev=82370, orig=82370, overlap=100.00%
+       # Binder (any allele): dev=6089, orig=6089, overlap=100.00%
+       # Binders for allele A*01:01: dev=1547, orig=1547, overlap=100.00%
+       # Binders for allele B*07:02: dev=4542, orig=4542, overlap=100.00%
+[INFO] Condition: bin_cond_1
+       Unique proteins: dev=6226, orig=6226, overlap=100.00%
+       Total peptides: dev=5492367, orig=5509956, overlap=99.68%
+       Unique peptides: dev=5319463, orig=5319757, overlap=99.99%
+       # Binder (any allele): dev=128254, orig=128255, overlap=100.00%
+       # Binders for allele A*01:01: dev=128254, orig=128255, overlap=100.00%
+       # Binders for allele B*07:02: dev=0, orig=0, overlap=100.00%
+[INFO] Condition: bin_cond_2
+       Unique proteins: dev=6226, orig=6226, overlap=100.00%
+       Total peptides: dev=5492367, orig=5509956, overlap=99.68%
+       Unique peptides: dev=5319463, orig=5319757, overlap=99.99%
+       # Binder (any allele): dev=128254, orig=128255, overlap=100.00%
+       # Binders for allele A*01:01: dev=128254, orig=128255, overlap=100.00%
+       # Binders for allele B*07:02: dev=0, orig=0, overlap=100.00%
+[INFO] Condition: total
+       Unique proteins: dev=6314, orig=6314, overlap=100.00%
+       Total peptides: dev=11149698, orig=11184876, overlap=99.69%
+       Unique peptides: dev=5401519, orig=5401813, overlap=99.99%
+       # Binder (any allele): dev=134319, orig=134320, overlap=100.00%
+       # Binders for allele A*01:01: dev=129799, orig=129800, overlap=100.00%
+       # Binders for allele B*07:02: dev=4542, orig=4542, overlap=100.00%
+
+[INFO] Finished all comparisons.

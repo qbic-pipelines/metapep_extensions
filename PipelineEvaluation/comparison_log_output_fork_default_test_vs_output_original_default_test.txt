@@ -1,0 +1,151 @@
+[INFO] Starting paired file comparison ... (log also saved to comparison_log_output_fork_default_test_vs_output_original_default_test.txt)
+
+=== Comparing proteins.tsv.gz ===
+[INFO] Dev file size: 1170669 bytes
+[INFO] Original file size: 1170669 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: 3b397fc51074066efe2d31a5aff2abe3
+[INFO] Original MD5: 3b397fc51074066efe2d31a5aff2abe3
+[INFO] Collecting line sets ...
+[INFO] Dev line count (excluding header): 6314
+[INFO] Original line count (excluding header): 6314
+[INFO] Line content comparison (order-independent):
+       Unique entries in dev: 6314
+       Unique entries in original: 6314
+       Shared unique entries: 6314
+       Only in dev: 0
+       Only in original: 0
+       Percent identical relative to dev: 100.00%
+       Percent identical relative to original: 100.00%
+
+=== Comparing peptides.tsv.gz ===
+[INFO] Dev file size: 42232870 bytes
+[INFO] Original file size: 42235893 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: 5a58c1cbc78426dd1b300f1a69a0884c
+[INFO] Original MD5: 66f6ceef1d5212d061b46c90703282d9
+[INFO] Collecting line sets ...
+[INFO] Dev line count (excluding header): 5401519
+[INFO] Original line count (excluding header): 5401813
+[INFO] Line content comparison (order-independent):
+       Unique entries in dev: 5401519
+       Unique entries in original: 5401813
+       Shared unique entries: 5401519
+       Only in dev: 0
+       Only in original: 294
+       Percent identical relative to dev: 100.00%
+       Percent identical relative to original: 99.99%
+[INFO] Entries present in original but NOT in dev (showing up to 10 examples):
+       peptide_sequence	peptide_id
+       ACLQAGXXP
+       ACLQAGXXPD
+       ACLQAGXXPDV
+       AEKLGLEKGLX
+       AEMDLHLXX
+       AEMDLHLXXX
+       AEMDLHLXXXX
+       AGXXPDVYN
+       AGXXPDVYNG
+       AGXXPDVYNGI
+
+=== Comparing predictions.tsv.gz ===
+[INFO] Dev file size: 58017014 bytes
+[INFO] Original file size: 58021451 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: 3e841569eb4d9ad8d3fcbbb5d1f79404
+[INFO] Original MD5: a50679d98e43e09858bf5f29ed222cd2
+[INFO] Collecting line sets ...
+[INFO] Dev line count (excluding header): 10720982
+[INFO] Original line count (excluding header): 10721570
+[INFO] Line content comparison (order-independent):
+       Unique entries in dev: 5401519
+       Unique entries in original: 5401813
+       Shared unique entries: 5401519
+       Only in dev: 0
+       Only in original: 294
+       Percent identical relative to dev: 100.00%
+       Percent identical relative to original: 99.99%
+[INFO] Entries present in original but NOT in dev (showing up to 10 examples):
+       peptide_id	prediction_score	allele_id
+       5401519
+       5401520
+       5401521
+       5401522
+       5401523
+       5401524
+       5401525
+       5401526
+       5401527
+       5401528
+
+=== Comparing proteins_peptides.tsv ===
+[INFO] Dev file size: 81365070 bytes
+[INFO] Original file size: 81370452 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: e304ffe83c16915a9e38c579bcdb2118
+[INFO] Original MD5: e4d6b0199769075ff20c8eeca1485852
+[INFO] Collecting line sets ...
+[INFO] Dev line count (excluding header): 5573652
+[INFO] Original line count (excluding header): 5574012
+[INFO] Line content comparison (order-independent):
+       Unique entries in dev: 5573652
+       Unique entries in original: 5574012
+       Shared unique entries: 14199
+       Only in dev: 5559453
+       Only in original: 5559813
+       Percent identical relative to dev: 0.25%
+       Percent identical relative to original: 0.25%
+[INFO] Entries present in dev but NOT in original (showing up to 10 examples):
+       protein_id	peptide_id	count
+       0	1011758	1
+       0	1015057	1
+       0	1020591	1
+       0	1023848	1
+       0	1029470	1
+       0	1038065	1
+       0	104081	1
+       0	1043111	1
+       0	1043563	1
+       0	106800	1
+[INFO] Entries present in original but NOT in dev (showing up to 10 examples):
+       protein_id	peptide_id	count
+       0	1011800	1
+       0	1015099	1
+       0	1020633	1
+       0	1023890	1
+       0	1029512	1
+       0	1038109	1
+       0	104084	1
+       0	1043155	1
+       0	1043607	1
+       0	106803	1
+
+=== Comparing stats.tsv ===
+[INFO] Dev file size: 273 bytes
+[INFO] Original file size: 273 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: a1b2e73bd9c764266dd5d3f4b68c7b20
+[INFO] Original MD5: 0e58a492488a23f273b8993262043f5a
+[INFO] Condition: total
+       Unique proteins: dev=6314, orig=6314, amount percent overlap=100.00%
+       Total peptides: dev=5574849, orig=5592438, amount percent overlap=99.69%
+       Unique peptides: dev=5401519, orig=5401813, amount percent overlap=99.99%
+       # Binder (any allele): dev=354369, orig=354376, amount percent overlap=100.00%
+       # Binders for allele A*01:01: dev=129799, orig=129800, amount percent overlap=100.00%
+       # Binders for allele B*07:02: dev=226030, orig=226036, amount percent overlap=100.00%
+[INFO] Condition: cond_2
+       Unique proteins: dev=88, orig=88, amount percent overlap=100.00%
+       Total peptides: dev=82482, orig=82482, amount percent overlap=100.00%
+       Unique peptides: dev=82370, orig=82370, amount percent overlap=100.00%
+       # Binder (any allele): dev=1547, orig=1547, amount percent overlap=100.00%
+       # Binders for allele A*01:01: dev=1547, orig=1547, amount percent overlap=100.00%
+       # Binders for allele B*07:02: dev=0, orig=0, amount percent overlap=100.00%
+[INFO] Condition: cond_1
+       Unique proteins: dev=6226, orig=6226, amount percent overlap=100.00%
+       Total peptides: dev=5492367, orig=5509956, amount percent overlap=99.68%
+       Unique peptides: dev=5319463, orig=5319757, amount percent overlap=99.99%
+       # Binder (any allele): dev=354284, orig=354291, amount percent overlap=100.00%
+       # Binders for allele A*01:01: dev=128254, orig=128255, amount percent overlap=100.00%
+       # Binders for allele B*07:02: dev=226030, orig=226036, amount percent overlap=100.00%
+
+[INFO] Finished all comparisons.

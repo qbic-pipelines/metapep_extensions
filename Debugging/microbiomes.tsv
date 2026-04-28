@@ -1,0 +1,3 @@
+microbiome_id	microbiome_path	microbiome_type	weights_path	microbiome_bare_id
+0	PipelineInput/soilMicrobiome.tsv	taxa		0
+1	PipelineInput/humanMicrobiome.tsv	taxa		1

@@ -1,0 +1,103 @@
+[INFO] Starting paired file comparison ... (log also saved to comparison_log_output_fork_mouse_vs_output_original_mouse.txt)
+
+=== Comparing proteins.tsv.gz ===
+[INFO] Dev file size: 171867 bytes
+[INFO] Original file size: 171867 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: 63f657d439d46cf8e1edec45ac14694d
+[INFO] Original MD5: 63f657d439d46cf8e1edec45ac14694d
+[INFO] Collecting line sets ...
+[INFO] Dev line count (excluding header): 767
+[INFO] Original line count (excluding header): 767
+[INFO] Line content comparison (order-independent):
+       Unique entries in dev: 767
+       Unique entries in original: 767
+       Shared unique entries: 767
+       Only in dev: 0
+       Only in original: 0
+       Percent identical relative to dev: 100.00%
+       Percent identical relative to original: 100.00%
+
+=== Comparing peptides.tsv.gz ===
+[INFO] Dev file size: 1507727 bytes
+[INFO] Original file size: 1507727 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: b0830048efc3929da5ea242b1721b6f5
+[INFO] Original MD5: b0830048efc3929da5ea242b1721b6f5
+[INFO] Collecting line sets ...
+[INFO] Dev line count (excluding header): 205526
+[INFO] Original line count (excluding header): 205526
+[INFO] Line content comparison (order-independent):
+       Unique entries in dev: 205526
+       Unique entries in original: 205526
+       Shared unique entries: 205526
+       Only in dev: 0
+       Only in original: 0
+       Percent identical relative to dev: 100.00%
+       Percent identical relative to original: 100.00%
+
+=== Comparing predictions.tsv.gz ===
+[INFO] Dev file size: 1729226 bytes
+[INFO] Original file size: 1729226 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: f984a48c1a7a3dee2398cf1f214be18b
+[INFO] Original MD5: f984a48c1a7a3dee2398cf1f214be18b
+[INFO] Collecting line sets ...
+[INFO] Dev line count (excluding header): 383538
+[INFO] Original line count (excluding header): 383538
+[INFO] Line content comparison (order-independent):
+       Unique entries in dev: 205526
+       Unique entries in original: 205526
+       Shared unique entries: 205526
+       Only in dev: 0
+       Only in original: 0
+       Percent identical relative to dev: 100.00%
+       Percent identical relative to original: 100.00%
+
+=== Comparing proteins_peptides.tsv ===
+[INFO] Dev file size: 3464234 bytes
+[INFO] Original file size: 3464234 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: 834f9f1866957d8d8c865b926cfa1c62
+[INFO] Original MD5: 834f9f1866957d8d8c865b926cfa1c62
+[INFO] Collecting line sets ...
+[INFO] Dev line count (excluding header): 280717
+[INFO] Original line count (excluding header): 280717
+[INFO] Line content comparison (order-independent):
+       Unique entries in dev: 280717
+       Unique entries in original: 280717
+       Shared unique entries: 280717
+       Only in dev: 0
+       Only in original: 0
+       Percent identical relative to dev: 100.00%
+       Percent identical relative to original: 100.00%
+
+=== Comparing stats.tsv ===
+[INFO] Dev file size: 255 bytes
+[INFO] Original file size: 255 bytes
+[INFO] Computing MD5 checksums ...
+[INFO] Dev MD5: c6a8fb9f4bfe4ed4ff988ca9adc81b4d
+[INFO] Original MD5: c6a8fb9f4bfe4ed4ff988ca9adc81b4d
+[INFO] Condition: cond_1
+       Unique proteins: dev=679, orig=679, amount percent overlap=100.00%
+       Total peptides: dev=338276, orig=338276, amount percent overlap=100.00%
+       Unique peptides: dev=178012, orig=178012, amount percent overlap=100.00%
+       # Binder (any allele): dev=19805, orig=19805, amount percent overlap=100.00%
+       # Binders for allele H2-Db: dev=11431, orig=11431, amount percent overlap=100.00%
+       # Binders for allele H2-Ld: dev=8374, orig=8374, amount percent overlap=100.00%
+[INFO] Condition: total
+       Unique proteins: dev=767, orig=767, amount percent overlap=100.00%
+       Total peptides: dev=365858, orig=365858, amount percent overlap=100.00%
+       Unique peptides: dev=205526, orig=205526, amount percent overlap=100.00%
+       # Binder (any allele): dev=19144, orig=19144, amount percent overlap=100.00%
+       # Binders for allele H2-Db: dev=12873, orig=12873, amount percent overlap=100.00%
+       # Binders for allele H2-Ld: dev=8374, orig=8374, amount percent overlap=100.00%
+[INFO] Condition: cond_2
+       Unique proteins: dev=88, orig=88, amount percent overlap=100.00%
+       Total peptides: dev=27582, orig=27582, amount percent overlap=100.00%
+       Unique peptides: dev=27543, orig=27543, amount percent overlap=100.00%
+       # Binder (any allele): dev=1444, orig=1444, amount percent overlap=100.00%
+       # Binders for allele H2-Db: dev=1444, orig=1444, amount percent overlap=100.00%
+       # Binders for allele H2-Ld: dev=0, orig=0, amount percent overlap=100.00%
+
+[INFO] Finished all comparisons.
